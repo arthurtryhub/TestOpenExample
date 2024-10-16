@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open ",
+    "cy:run": "cypress run --browser chrome ",
+    "cy:run:ui": "cypress run --browser chrome --headed"
+  },
+  "author": "artur",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.1",
+    "cypress": "^13.14.2"
+  }
+}
